@@ -27,7 +27,7 @@ class BallView: UIView {
 	init(speedX: CGFloat, speedY: CGFloat) {
 		self.speedX = speedX
 		self.speedY = speedY
-		super.init(frame: CGRectMake(0, 0, 10, 10))
+		super.init(frame: CGRectMake(0, 0, 20, 20))
 		self.backgroundColor = UIColor.clearColor()
 	}
 	
@@ -45,7 +45,7 @@ class BallView: UIView {
 	}
 	
 	func move() {
-		
+		dispatch_async(dispatch_get_global_queue(, <#T##flags: UInt##UInt#>), <#T##block: dispatch_block_t##dispatch_block_t##() -> Void#>)
 		let timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(updatePosition), userInfo: nil, repeats: true)
 		timer.fire()
 	}
@@ -55,7 +55,6 @@ class BallView: UIView {
 		
 		self.frame.origin.x = self.frame.origin.x + CGFloat(speedX)
 		self.frame.origin.y = self.frame.origin.y + CGFloat(speedY)
-		print(self.frame)
 	}
 	
 	func checkTouch() {

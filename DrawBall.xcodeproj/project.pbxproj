@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF0A8981D1D251200F06EE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0A8971D1D251200F06EE4 /* Constants.swift */; };
+		8AF0A89A1D1D257200F06EE4 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF0A8991D1D257200F06EE4 /* UIColor.swift */; };
+		F3CD5D801D1CCA8100937F51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD5D7F1D1CCA8100937F51 /* AppDelegate.swift */; };
+		F3CD5D821D1CCA8100937F51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD5D811D1CCA8100937F51 /* ViewController.swift */; };
+		F3CD5D871D1CCA8100937F51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CD5D861D1CCA8100937F51 /* Assets.xcassets */; };
+		F3CD5D8A1D1CCA8100937F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CD5D881D1CCA8100937F51 /* LaunchScreen.storyboard */; };
+		F3CD5D951D1CCA8100937F51 /* DrawBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD5D941D1CCA8100937F51 /* DrawBallTests.swift */; };
+		F3CD5DA01D1CCA8100937F51 /* DrawBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD5D9F1D1CCA8100937F51 /* DrawBallUITests.swift */; };
+		F3CD5DAF1D1CCA9C00937F51 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD5DAD1D1CCA9C00937F51 /* HomeViewController.swift */; };
+		F3CD5DB01D1CCA9C00937F51 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CD5DAE1D1CCA9C00937F51 /* HomeViewController.xib */; };
+		F3CD5DB41D1CCB2A00937F51 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CD5DB31D1CCB2A00937F51 /* BallView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3CD5D911D1CCA8100937F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CD5D741D1CCA8100937F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CD5D7B1D1CCA8100937F51;
+			remoteInfo = DrawBall;
+		};
+		F3CD5D9C1D1CCA8100937F51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CD5D741D1CCA8100937F51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CD5D7B1D1CCA8100937F51;
+			remoteInfo = DrawBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AF0A8971D1D251200F06EE4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8AF0A8991D1D257200F06EE4 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F3CD5D7C1D1CCA8100937F51 /* DrawBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CD5D7F1D1CCA8100937F51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3CD5D811D1CCA8100937F51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3CD5D861D1CCA8100937F51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CD5D891D1CCA8100937F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3CD5D8B1D1CCA8100937F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CD5D901D1CCA8100937F51 /* DrawBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CD5D941D1CCA8100937F51 /* DrawBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBallTests.swift; sourceTree = "<group>"; };
+		F3CD5D961D1CCA8100937F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CD5D9B1D1CCA8100937F51 /* DrawBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CD5D9F1D1CCA8100937F51 /* DrawBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBallUITests.swift; sourceTree = "<group>"; };
+		F3CD5DA11D1CCA8100937F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CD5DAD1D1CCA9C00937F51 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3CD5DAE1D1CCA9C00937F51 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F3CD5DB31D1CCB2A00937F51 /* BallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3CD5D791D1CCA8100937F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD5D8D1D1CCA8100937F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD5D981D1CCA8100937F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3CD5D731D1CCA8100937F51 = {
+			isa = PBXGroup;
+			children = (
+				F3CD5D7E1D1CCA8100937F51 /* DrawBall */,
+				F3CD5D931D1CCA8100937F51 /* DrawBallTests */,
+				F3CD5D9E1D1CCA8100937F51 /* DrawBallUITests */,
+				F3CD5D7D1D1CCA8100937F51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CD5D7D1D1CCA8100937F51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD5D7C1D1CCA8100937F51 /* DrawBall.app */,
+				F3CD5D901D1CCA8100937F51 /* DrawBallTests.xctest */,
+				F3CD5D9B1D1CCA8100937F51 /* DrawBallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CD5D7E1D1CCA8100937F51 /* DrawBall */ = {
+			isa = PBXGroup;
+			children = (
+				8AF0A8991D1D257200F06EE4 /* UIColor.swift */,
+				F3CD5D7F1D1CCA8100937F51 /* AppDelegate.swift */,
+				F3CD5D811D1CCA8100937F51 /* ViewController.swift */,
+				F3CD5D861D1CCA8100937F51 /* Assets.xcassets */,
+				F3CD5D881D1CCA8100937F51 /* LaunchScreen.storyboard */,
+				F3CD5D8B1D1CCA8100937F51 /* Info.plist */,
+				F3CD5DAD1D1CCA9C00937F51 /* HomeViewController.swift */,
+				F3CD5DAE1D1CCA9C00937F51 /* HomeViewController.xib */,
+				F3CD5DB31D1CCB2A00937F51 /* BallView.swift */,
+				8AF0A8971D1D251200F06EE4 /* Constants.swift */,
+			);
+			path = DrawBall;
+			sourceTree = "<group>";
+		};
+		F3CD5D931D1CCA8100937F51 /* DrawBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD5D941D1CCA8100937F51 /* DrawBallTests.swift */,
+				F3CD5D961D1CCA8100937F51 /* Info.plist */,
+			);
+			path = DrawBallTests;
+			sourceTree = "<group>";
+		};
+		F3CD5D9E1D1CCA8100937F51 /* DrawBallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CD5D9F1D1CCA8100937F51 /* DrawBallUITests.swift */,
+				F3CD5DA11D1CCA8100937F51 /* Info.plist */,
+			);
+			path = DrawBallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3CD5D7B1D1CCA8100937F51 /* DrawBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CD5DA41D1CCA8100937F51 /* Build configuration list for PBXNativeTarget "DrawBall" */;
+			buildPhases = (
+				F3CD5D781D1CCA8100937F51 /* Sources */,
+				F3CD5D791D1CCA8100937F51 /* Frameworks */,
+				F3CD5D7A1D1CCA8100937F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawBall;
+			productName = DrawBall;
+			productReference = F3CD5D7C1D1CCA8100937F51 /* DrawBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3CD5D8F1D1CCA8100937F51 /* DrawBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CD5DA71D1CCA8100937F51 /* Build configuration list for PBXNativeTarget "DrawBallTests" */;
+			buildPhases = (
+				F3CD5D8C1D1CCA8100937F51 /* Sources */,
+				F3CD5D8D1D1CCA8100937F51 /* Frameworks */,
+				F3CD5D8E1D1CCA8100937F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CD5D921D1CCA8100937F51 /* PBXTargetDependency */,
+			);
+			name = DrawBallTests;
+			productName = DrawBallTests;
+			productReference = F3CD5D901D1CCA8100937F51 /* DrawBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3CD5D9A1D1CCA8100937F51 /* DrawBallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CD5DAA1D1CCA8100937F51 /* Build configuration list for PBXNativeTarget "DrawBallUITests" */;
+			buildPhases = (
+				F3CD5D971D1CCA8100937F51 /* Sources */,
+				F3CD5D981D1CCA8100937F51 /* Frameworks */,
+				F3CD5D991D1CCA8100937F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CD5D9D1D1CCA8100937F51 /* PBXTargetDependency */,
+			);
+			name = DrawBallUITests;
+			productName = DrawBallUITests;
+			productReference = F3CD5D9B1D1CCA8100937F51 /* DrawBallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CD5D741D1CCA8100937F51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Duy Tang";
+				TargetAttributes = {
+					F3CD5D7B1D1CCA8100937F51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 79ULVLGVJE;
+					};
+					F3CD5D8F1D1CCA8100937F51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 79ULVLGVJE;
+						TestTargetID = F3CD5D7B1D1CCA8100937F51;
+					};
+					F3CD5D9A1D1CCA8100937F51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 79ULVLGVJE;
+						TestTargetID = F3CD5D7B1D1CCA8100937F51;
+					};
+				};
+			};
+			buildConfigurationList = F3CD5D771D1CCA8100937F51 /* Build configuration list for PBXProject "DrawBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CD5D731D1CCA8100937F51;
+			productRefGroup = F3CD5D7D1D1CCA8100937F51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CD5D7B1D1CCA8100937F51 /* DrawBall */,
+				F3CD5D8F1D1CCA8100937F51 /* DrawBallTests */,
+				F3CD5D9A1D1CCA8100937F51 /* DrawBallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3CD5D7A1D1CCA8100937F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD5D8A1D1CCA8100937F51 /* LaunchScreen.storyboard in Resources */,
+				F3CD5D871D1CCA8100937F51 /* Assets.xcassets in Resources */,
+				F3CD5DB01D1CCA9C00937F51 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD5D8E1D1CCA8100937F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD5D991D1CCA8100937F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3CD5D781D1CCA8100937F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF0A8981D1D251200F06EE4 /* Constants.swift in Sources */,
+				8AF0A89A1D1D257200F06EE4 /* UIColor.swift in Sources */,
+				F3CD5D821D1CCA8100937F51 /* ViewController.swift in Sources */,
+				F3CD5D801D1CCA8100937F51 /* AppDelegate.swift in Sources */,
+				F3CD5DAF1D1CCA9C00937F51 /* HomeViewController.swift in Sources */,
+				F3CD5DB41D1CCB2A00937F51 /* BallView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD5D8C1D1CCA8100937F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD5D951D1CCA8100937F51 /* DrawBallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CD5D971D1CCA8100937F51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CD5DA01D1CCA8100937F51 /* DrawBallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3CD5D921D1CCA8100937F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CD5D7B1D1CCA8100937F51 /* DrawBall */;
+			targetProxy = F3CD5D911D1CCA8100937F51 /* PBXContainerItemProxy */;
+		};
+		F3CD5D9D1D1CCA8100937F51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CD5D7B1D1CCA8100937F51 /* DrawBall */;
+			targetProxy = F3CD5D9C1D1CCA8100937F51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3CD5D881D1CCA8100937F51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3CD5D891D1CCA8100937F51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3CD5DA21D1CCA8100937F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CD5DA31D1CCA8100937F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CD5DA51D1CCA8100937F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duytang.DrawBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3CD5DA61D1CCA8100937F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duytang.DrawBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3CD5DA81D1CCA8100937F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duytang.DrawBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawBall.app/DrawBall";
+			};
+			name = Debug;
+		};
+		F3CD5DA91D1CCA8100937F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duytang.DrawBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawBall.app/DrawBall";
+			};
+			name = Release;
+		};
+		F3CD5DAB1D1CCA8100937F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duytang.DrawBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawBall;
+			};
+			name = Debug;
+		};
+		F3CD5DAC1D1CCA8100937F51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrawBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duytang.DrawBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrawBall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3CD5D771D1CCA8100937F51 /* Build configuration list for PBXProject "DrawBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD5DA21D1CCA8100937F51 /* Debug */,
+				F3CD5DA31D1CCA8100937F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CD5DA41D1CCA8100937F51 /* Build configuration list for PBXNativeTarget "DrawBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD5DA51D1CCA8100937F51 /* Debug */,
+				F3CD5DA61D1CCA8100937F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CD5DA71D1CCA8100937F51 /* Build configuration list for PBXNativeTarget "DrawBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD5DA81D1CCA8100937F51 /* Debug */,
+				F3CD5DA91D1CCA8100937F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CD5DAA1D1CCA8100937F51 /* Build configuration list for PBXNativeTarget "DrawBallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CD5DAB1D1CCA8100937F51 /* Debug */,
+				F3CD5DAC1D1CCA8100937F51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CD5D741D1CCA8100937F51 /* Project object */;
+}
